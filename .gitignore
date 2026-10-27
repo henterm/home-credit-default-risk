@@ -1,0 +1,22 @@
+# данные Kaggle (несколько ГБ, и по правилам соревнования их не выкладывают)
+data/
+*.csv
+*.zip
+
+# окружение и служебное
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# результаты прогонов и MLflow
+outputs/
+mlflow.db
+mlruns/
+
+# личные заметки для обучения (уберите строку, если хотите их публиковать)
+LEARNING.md
+CLAUDE.md
+notebooks/HomeCredit.ipynb
